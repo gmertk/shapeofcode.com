@@ -7,10 +7,10 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 module.exports = {
   siteMetadata: {
     siteTitle: `Shape of My Code`,
-    siteTitleAlt: `A blog by Günay Mert Karadoğan`,
+    siteTitleAlt: `A Blog by Günay Mert Karadoğan`,
     siteHeadline: `But that's not the shape of my code...`,
     siteUrl: "https://shapeofmycode.com",
-    siteDescription: `A blog by Mert on programming, design, web development, JavaScript, TypeScript, and so on`,
+    siteDescription: `A Blog by Mert on programming, design, web development, JavaScript, TypeScript, React.js, and so on`,
     siteLanguage: `en`,
     siteImage: "",
     author: "@gunaymertk",
@@ -36,6 +36,7 @@ module.exports = {
             url: `https://twitter.com/gunaymertk`,
           },
         ],
+        feedTitle: "Shape of My Code",
       },
     },
     {
